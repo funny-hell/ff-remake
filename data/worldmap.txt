@@ -1,0 +1,528 @@
+pages {
+    darkerworld {
+        collectibles 12 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+    }
+    
+    FUCKworld {
+        collectibles 4 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+    }
+    
+    console {
+        collectibles 0 //lives + biglives + carts + bodyparts
+    }
+}
+
+meta {
+    default_node Nevermore
+    
+    leftwipes [r2-0 r3-1 hub-1 r4b-1]
+    rightwipes [r1-20 r2-19 r3-20 hub-1]
+    upwipes [4b-15]
+    downwipes []
+    
+    stevenheads [NPCHX]
+    steventhreshtumors [0]
+    stevenlevels [r1-1]
+    
+    mainworlds [start r1 r2 r3 hub r4a r5a r4b r5b] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
+    cartworlds [c1 c2 c3 c4a c5a] //launch console automatically when you exit from these worlds
+    
+    headlevel 5a-22
+    bodylevel 5c-21
+    heartlevel 5b-23
+    
+    mute_warpunlock_message [intro-1 intro-2 start-3] //levels that have a warp point but shouldnt show the "warp point unlocked" message
+    
+    game_over_checkpoints [[start start-3][r1 r1-1] [r2 r2-1] [r3 r3-1][hub hub-1]] //if you game over in world "1d", spawn back to 1d-1, etc. this only matters when loading from a save file, otherwise it uses the last checkpoint you visited
+    iron_cart_entrypoints [i1-1 i2-1 i3-1 i4-1 $i1-1] //used to set the respawn point in an iron cart
+    timed_cart_entrypoints [g5-1] //maybe you want to put a timer on other carts?
+    console_entry_levels [start-3]
+    nevermore_entry 7-0
+    escape_entry 6-21
+    nevermore_tumorthresh 300
+    timer_bypass_levels [6-1]
+    timer_buttonopen_levels [9x-6] //if the timer is open, button4 has its state toggled in these rooms
+    
+    megacart_entry_levels [$c1-1]
+    towercart_entry_levels [$i1-1]
+    cart_lives_overrides [[$c1-1 39]]
+    cart_title_overrides [[$c1-1 "AllStars"] [$i1-1 "Acceptance"]]
+    
+    savefile_completion_counter_max 285 //count of total collectible tumors, carts, body parts (3), cart achievements, map warp points (number of levels in the array below), and endings (2)
+    savefile_completion_warpoints [start-3 r1-1 r2-0 r3-1 hub-1 r4b-1 r5b-1] //visiting these levels counts for save file completion
+    save_initiallevel c9-0
+    save_lightspawn intro-2
+    save_darkspawn 1d-1
+    save_lightspawnlabel "Nevermore?"  //since the game can set your save to these levels without visiting them, their names need to be manually set so they show up on the save
+    save_darkspawnlabel "Dark Rapture"
+    
+}
+
+nodes {
+	//FUTURE FUTURE LETS GO
+	
+	Nevermore {
+        clipname nevermore
+        entrylevel start-3
+        page darkerworld
+		levelgroups [start]
+		unlock_condition always_unlocked
+        
+		down Rapture
+		right Rapture
+    }
+	Rapture {
+        clipname rapture
+        entrylevel r1-1
+        page darkerworld
+        levelgroups [r1 r1xd r1xu]
+        
+        up Nevermore
+		left Nevermore
+		right Wastelands
+    }
+    Wastelands {
+        clipname wastelands
+        entrylevel r2-0
+        page darkerworld
+        levelgroups [r2 r2xd r2xu]
+        
+        left Rapture
+		right Collapse
+    }
+    Collapse {
+        clipname collapse
+        entrylevel r3-1
+        page darkerworld
+        levelgroups [r3 r3xd r3xu]
+        
+        left Wastelands
+		right Hubz
+    }
+	
+    Hubz {
+        clipname hub
+        entrylevel hub-1
+        page darkerworld
+        levelgroups [hub]
+        
+        left Collapse
+	    right Flip
+	    down Shock
+	    up Excruciance
+    }
+	
+    Excruciance {
+        clipname excruciance
+        entrylevel ex-1
+        page darkerworld
+        levelgroups [ex exx]
+        
+        down Hubz
+     	right XSExodus
+	    up XSExodus
+    }
+	
+    XSExodus {
+        clipname xsexodus
+        entrylevel xs-1
+        page darkerworld
+        levelgroups [xs xsx]
+        
+        down Excruciance
+        left Excruciance
+		right QuantumUndersides
+		up QuantumUndersides
+    }
+	
+    QuantumUndersides {
+        clipname quantum
+        entrylevel qu-1
+        page darkerworld
+        levelgroups [qu qux]
+        
+        left XSExodus
+		down GunsBlazing
+    }
+	
+    GunsBlazing {
+        clipname guns
+        entrylevel gb-1
+        page darkerworld
+        levelgroups [gb gbx]
+        
+        up QuantumUndersides
+    }
+	
+    Flip {
+        clipname flip
+        entrylevel r4b-1
+        page darkerworld
+        levelgroups [r4b r4bx]
+        
+        left Hubz
+		right Desintegration
+		down Desintegration
+    }
+	
+    Desintegration {
+        clipname desintegration
+        entrylevel r5b-1
+        page darkerworld
+        levelgroups [r5b r5bx]
+        
+        left Flip
+		up Flip
+    }
+	
+    Shock {
+        clipname shock
+        entrylevel 6d-3
+        page darkerworld
+        levelgroups [6d 6dx]
+        
+        up Hubz
+	    left Lemniscateum
+    }
+	
+    Lemniscateum {
+        clipname lemniscateum
+        entrylevel 7d-1
+        page darkerworld
+        levelgroups [7d 7dx]
+        
+        right Shock
+	    left Grave
+    }
+	
+    Grave {
+        clipname grave
+        entrylevel hub2-5
+        page darkerworld
+        levelgroups hub2
+		unlock_condition visited_levels_any
+		unlock_condition_levels [hub2-4 hub2-5]
+        
+        right Lemniscateum
+    }
+	
+	StevenHeadFF {
+        clipname steveff
+        entrylevel 15x-1
+        page darkerworld
+        levelgroups [15x]
+        unlock_condition collected_carts_any
+        unlock_condition_levels [15x-2 15x-4 15x-6 15x-8]    
+    }
+    
+    //carts
+
+    Cart1 {
+        clipname cr1
+        entrylevel c1-1
+        page console
+        cart_cheevolevel c1-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [r1xd-2]    
+        
+        down Cart2
+        up Cart2
+    }
+    
+    Cart2 {
+        clipname cr2
+        entrylevel c2-1
+        page console
+        cart_cheevolevel c2-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [2xu-6]   
+        
+        down Cart1
+        up Cart1
+    }
+    Cart3 {
+        clipname cr3 // ecoli bridge
+        entrylevel cr3-1
+        page console2
+        cart_cheevolevel cr3-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [r3x-1]   
+        
+        down Cart2_4
+        up Cart2_2
+		left Cart3
+		right Cart3
+    }
+	Cart2_4 {
+        clipname cr4a // assassins cancer
+        entrylevel cr4a-1
+        page console2
+        cart_cheevolevel cr4a-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [exx-2]
+        
+        down Cart2_5
+        up Cart2_3
+		left Cart4
+		right Cart4
+    }
+    Cart3_5 {
+        clipname cr5a //gory mod
+        entrylevel cr5a-1
+        page console3
+        cart_cheevolevel cr5a-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [xsx-1]
+        
+        down Cart3_6
+        up Cart3_4
+		left Cart2_5
+		right Cart4_5
+    }
+	Cart3_6 {
+        clipname g6r //mortal
+        entrylevel g6-1
+        page console3
+        cart_cheevolevel g6-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [qux-1]
+        
+        down Cart3_7
+        up Cart3_5
+		left Cart2_6
+		right Cart4_6
+    }
+    Cart3_7 {
+        clipname gi0 //brittleinfernoisforme
+        entrylevel gi0-1
+        page console3
+        cart_cheevolevel gi0-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [gbx-1]
+        
+        down Cart3_8
+        up Cart3_6
+		left Cart2_7
+		right Cart4_7
+    }
+    Cart3_8 {
+        clipname gr4 //doomed
+        entrylevel gr4-1
+        page console3
+        cart_cheevolevel gr4-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [r4x-1]
+        
+        down Cart3_9
+        up Cart3_7
+		left Cart2_8
+		right Cart4_8
+    }
+    Cart3_9 {
+        clipname gr5 //slander toy
+        entrylevel gr5-1
+        page console3
+        cart_cheevolevel gr5-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [r5-2x]
+        
+        up Cart3_8
+        down Cart3_10
+		left Cart2_9
+		right Cart4_9
+    }
+    Cart3_10 {
+        clipname g6d //i am dead
+        entrylevel g6d-1
+        page console3
+        cart_cheevolevel g6d-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [6dx-2]
+        
+        up Cart3_9
+        down Cart3_11
+		left Cart2_10
+		right Cart4_10
+    }
+    Cart3_11 {
+        clipname g7 //microbe platformer
+        entrylevel g7-1
+        page console3
+        cart_cheevolevel g7-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [hub2-4]
+        
+        down Cart3_12
+        up Cart3_10
+		left Cart2_11
+		right Cart4_11
+    }
+    Cart3_12 {
+        clipname gx //undead chamber
+        entrylevel gx-1
+        page console3
+        cart_cheevolevel gx-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [t-1x]
+        
+        down Cart3_13
+        up Cart3_11
+		left Cart2_12
+		right Cart4_12
+    }
+	Cart3_13 {
+        clipname gx_2
+        entrylevel cxxx-1
+        page console3
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0] 
+        
+        down Cart3_14
+        up Cart3_12
+		left Cart2_13
+		right Cart4_13
+		select Cart3_13
+    }
+	Cart3_14 {
+        clipname ix1 //contemplation
+        entrylevel ix1-1
+        page console3
+        cart_cheevolevel ix1-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [gwarp-1]
+        
+        down Cart3_15
+        up Cart3_13
+		left Cart2_14
+		right Cart4_14
+    }
+	Cart3_15 {
+        clipname ix2 //preparation
+        entrylevel ix2-1
+        page console3
+        cart_cheevolevel ix2-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [gwarp-2]
+        
+        down Cart3_16
+        up Cart3_14
+		left Cart2_15
+		right Cart4_15
+    }
+	Cart3_16 {
+        clipname ix3 //action
+        entrylevel ix3-1
+        page console3
+        cart_cheevolevel ix3-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [gwarp-3]
+        
+        down Cart3_17
+        up Cart3_15
+		left Cart2_16
+		right Cart4_16
+    }
+	Cart3_17 {
+        clipname ix4 //maintainence
+        entrylevel ix4-1
+        page console3
+        cart_cheevolevel ix4-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [gwarp-4]
+        
+        down Cart3_18
+        up Cart3_16
+		left Cart2_17
+		right Cart4_17
+    }
+	Cart3_18 {
+        clipname ix5 //degradation
+        entrylevel ix5-1
+        page console3
+        cart_cheevolevel ix5-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [gwarp-5]
+        
+        down Cart3_19
+        up Cart3_17
+		left Cart2_18
+		right Cart4_18
+    }
+	Cart3_19 {
+        clipname ix6 //relapse
+        entrylevel $ix1-1y
+        page console3
+        cart_cheevolevel ix6-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [gwarp-1 gwarp-2 gwarp-3 gwarp-4 gwarp-5]
+        
+        down Cart3_20
+        up Cart3_18
+		left Cart2_19
+		right Cart4_19
+    }
+    Cart3_20 {
+        clipname csd1 //darkanoid
+        entrylevel csd1-1
+        page console3
+        cart_cheevolevel csd1-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [9-19]
+        
+        down Cart3_21
+        up Cart3_19
+		left Cart2_20
+		right Cart4_20
+    }
+	Cart3_21 {
+        clipname csd2 //unused
+		entrylevel cxxx-1
+        page console3
+        cart_cheevolevel cxxx-all
+        cart_splashframe unfinished
+        unlock_condition collected_carts_all
+        unlock_condition_levels [0-0]  
+        
+        down Cart3_22
+        up Cart3_20
+		left Cart2_21
+		right Cart4_21
+		select Cart3_21
+    }
+    Cart3_22 {
+        clipname g99 //end++
+        entrylevel $gr1-1x
+        page console3
+        cart_cheevolevel i0-all
+        cart_splashframe finale
+        unlock_condition collected_carts_all
+        unlock_condition_levels [15x-2 15x-4 15x-6 15x-8]
+        
+        down Cart3_1
+        up Cart3_21
+		left Cart2_22
+		right Cart4_22
+    }
+    
+}

@@ -1,0 +1,55 @@
+THIS FILE IS NOT USED BY THE GAME.
+It is here only for your convenience.
+It tells you which rows of the palette.png file each area uses.
+
+Main Menu					0
+
+#PAST
+
+The End						1
+Arid Flats					2, 3 (Main levels, downwards secrets. Extra palette was used because sun uses the color of water.)
+Overflow					4
+Split and Wall of Sorrow	5
+SS Exodus					6
+Retrograde					7
+Machine						8
+Hollows						9
+Golgotha					10 (Also used for Exodus secret in Anguish.)
+
+#FUTURE
+
+Anguish						11 (Slightly darker overlay deco compared to Golgotha.)
+Gloom						12
+Ruin, Acceptance cutscene	13 (This is a hard-coded position for a cutscene. I am so sorry.)
+Blight						14, 15, 16 (Regular, Split, underground.)
+Nevermore					17 (Also used for Steven areas.)
+Nevermore cutscene			18 (This is a hard-coded position.)
+
+#CARTRIDGES. INTRO PALETTE, GAMEPLAY PALETTE
+
+Mortaman					19, 20
+Blaster Massacre			21, 22
+River City Rancid			23, 24
+Ash Climber					25, 26
+Fallen Fantasy				27, 28
+Rubble Bobble				29, 30
+Morbid Gear					31, 32
+Catastrovania				33, 34
+Dig Dead					35, 36
+
+Spike Tales					37, 38
+Scab or Die					39, 40
+Tombs & Torture				41, 42
+Pus-Man						43, 44
+Ghosts n' Grieving			45, 46
+Dead Racer					47, 48
+The End is Nigh				49, 50
+
+Denial						51, 51
+Anger						52, 52
+Bargaining					53, 53
+Depression					54, 54
+Acceptance					55, 55 (Last world of the Tower cart.)
+
+Mystery Castle				56, 56 (Last world of the Super Mega Cart.)
+

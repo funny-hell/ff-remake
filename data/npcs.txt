@@ -1,0 +1,1143 @@
+TestNPC {
+#a basic npc example
+	movieclip NPC0
+	sound_id NPCSkull
+	text [
+		"\n. . ."
+	]
+}
+
+#STEVENS
+
+NPCH1 {
+#arid flats steven
+	movieclip NPCH1
+	sound_id NPCSteven
+	text [
+		"would you\nlike to see\nyour fate?"
+		"this ride requires 50 lifetimes of suffering to enter"
+		"please return\nwhen your\ntumor has grown"
+		"we will\nbe\nwaiting"
+	]
+	
+	alt_text [
+		"\nmmmmmmm!"
+		"\nyou reek of sadness!"
+		"please\npoke your head\ninto the future!"
+	]
+}
+
+NPCH2 {
+#golgotha steven
+	movieclip NPCH2
+	sound_id NPCSteven
+	text [
+		"the mother\ncalls out\nfor you"
+		"she requires\n100 souls to\nallow entry"
+		"come back\nwhen you have\nharvested more"
+		"hurry\nshe grows\nimpatient"
+	]
+	
+	alt_text [
+		"the mother is\npleased with\nyour offering"
+		"you may\nenter her\nkingdom"
+		"\n. . ."
+	]
+}
+
+NPCH3 {
+#exodus steven
+	movieclip NPCH3
+	sound_id NPCSteven
+	text [
+		"we are\nthe\nfuture!"
+		"170 is the\nnumber\nrequired"
+		"when you\ncan count\nthat high"
+		"we will\nallow\nentry"
+	]
+	
+	alt_text [
+		"my third eye\nis\ntwitching"
+		"are you ready\nto receive\nour gift?"
+		"\n. . ."
+	]
+}
+
+NPCH4 {
+#the end steven
+	movieclip NPCH4
+	sound_id NPCSteven
+	text [
+		"guh . . .\n\nguh . . ."
+		"i\nhunger\n. . ."
+		"\n300 . . ."
+		"must\nbe\nblood"
+		"must\nbe\nfresh"
+		"\n. . ."
+		"\nfeed me . . ."
+	]
+	
+	alt_text [
+		"\n. . ."
+		"\ngrumble"
+		"\ngrumble"
+		"\n. . ."
+	]
+}
+
+NPCHX {
+#far future steven
+    movieclip NPCHX
+	sound_id NPCGhost
+	text [
+	    "how do you\neven?"
+		"\n. . ."
+	]
+	
+	alt_text [
+	    "so you still\nwant to escape\nfrom her right?"
+		"\n. . ."
+		"you can not\nrun away forever"
+		"this is your\nlast chance"
+		"try not to\nfuck it up\nas always"
+	]
+}
+
+#THE END
+
+NPC_THEEND1 {
+#tumor tutorial
+	movieclip NPC0
+	sound_id NPCSkull
+	text [
+		"oh \n . . .\nit's you . . ."
+		"must be nice\nbeing alive\nn' all that"
+		"when i died\nthat tumor\nwiggled out"
+		"it's been floating\nup there for years\nwatching me"
+		"please\ndon't take it . . . \nit's all i have left"
+	]
+}
+
+NPC_THEEND2 { 
+#basic ledge grab tutorial
+	movieclip NPC1
+	sound_id NPCSkull
+	text [
+		"when i wasn't dead\ni used to hang on\n corners n stuff"
+		"just like . . .\n . . .\n hanging out"
+		"\nget it?"
+		". . .\n. . .\nplease don't die"
+	]
+}
+
+NPC_THEEND3 {
+#pull out jump tutorial
+	movieclip NPC2
+	sound_id NPCSkull
+	text [
+		"when i used\nto hang off\na wall"
+		"i'd pull\nout from it\nand then"
+		"i'd do a\njump . . . and\ngo like super far!"
+		"but when i\ndidn't pull\noutwards"
+		"i'd mostly just\ngo up higher"
+		"i call it the\n\npull out method"
+		"\n. . ." 
+		"i made\nthat one up\nyears ago"
+		"i imagined it\nwould get more\nof a laugh"
+		"\n. . ."
+		"please\nleave me alone"
+	]
+}
+
+NPC_THEEND4 {
+#one-eyed ascender
+	movieclip NPCB7
+	sound_id NPCBlob
+	text [
+		"it's\nreally\nhappening!"
+		"the ascension\nis\nreal!"
+		"i've paid\nmy penance\ni've been forgiven!"
+		"\ni can see my future!"
+		"\ni see a white light"
+		"i see a foot . . .\nsomething about a\nfingernail"
+		"i'm feeling feelings\nagain . . .\nthis is finally over!"
+		"goodbye\ncruel\nworld!"
+	]
+}
+
+NPC_THEEND5 {
+#shaking ghost
+	movieclip NPCG7
+	sound_id NPCGhost
+	text [
+		"wow\nwe are sure\nhigh aren't we?"
+		"so high in fact\ni think i can make out your fate from here"
+		"you are going to\nmake a mistake\n. . ."
+		"you will create\nsomething"
+		"that will come back\nto haunt you"
+		"i can see\na pile of bones\n. . ."
+		"something about\n. . .\ncancer"
+		"wait\nwho\nare you?"
+		"why do i\nshare your\nmemories?" 
+		"\ni'm tripping out!"
+	]
+}
+
+NPC_THEEND6 {
+#watcher descender
+	movieclip NPCD6
+	sound_id NPCBlob
+	text [
+		"ah ha!\nfinally someone i can relate to!"
+		"us descenders gotta stick together ya know"
+		"it's very important to become part of a group"
+		"that way you instantly know who's good and who's evil!"
+		"obviously we are the good ones and everyone else . . ."
+		"\nALL HITLERS!"
+		"seriously though\nthink\nabout it"
+		"if we are right\neveryone else has gotta be wrong"
+	]
+}
+
+#ARID FLATS
+
+NPC_ARIDFLATS1 {
+#warp tutorial
+	movieclip NPC4
+	sound_id NPCSkull
+	text [
+		"\noh hey . . ."
+		"them's the remains\nof our ancestors\ndown there"
+		"their guts all\nconnect\nunderground"
+		"at night i\ncan hear them\n. . ." 
+		"\nwhispering"
+		"\n. . ."
+		"HELP US!\nWE ARE BURNING\nIN HELL!"
+		". . .\nor something\nlike that"
+		"it's hard to\nhear them over\nmy own screams"
+		"\n. . ."
+		"anyway\nit's like some kinda\ntunnel system"
+		"so when you\nfind a new one" 
+		"just remove the\nscab, hop in\nand BOOM!"
+		"\nyou're home!"
+	]
+}
+
+NPC_ARIDFLATS2 {
+#looking for secrets
+	movieclip NPC5
+	sound_id NPCSkull
+	text [
+		"\nshhhhh"
+		"\n. . ."
+		"there are others\n. . .\nclose by"
+		"crazies\nwho believe in\nwhat they call"
+		"\nTHE ASCENSION"
+		"they hide\njust out of view"
+		"some are above\n. . .\nsome below"
+		"don't try and\nfind them"
+		"and definitely\nnever speak\nto them"
+		"\n. . ."
+		"stick to the\nlinear path\nkid"
+		"exploration can\nonly lead to\ndisappointment"
+		"i explored\nmyself once\n. . ."
+		"\nand now i'm dead"
+		"\n. . ."
+		"\nthink about it"
+	]
+}
+
+NPC_ARIDFLATS3 {
+#quick ledge grab tutorial
+	movieclip NPC6
+	sound_id NPCSkull
+	text [
+		"\npppsssstt"
+		"hey kid \n. . ."
+		"ya ever wanna\ngrab corners\nwhile running?"
+		"\n. . ."
+		"it's easy\n . . . all\nyou gotta do is" 
+		"be ducking\nwhile you \nare running"
+		"your body will\njust snag on\nthe corner"
+		"\neverytime!"
+		"\n. . ."
+		"it's a classic\ntactic i used\n to use"
+		"to escape\n. . .\nfrom my urges"
+		"\n. . ."
+		"don't worry\n. . .\nwe are nice now"
+	]
+}
+
+NPC_ARIDFLATS4 {
+#imcute
+	movieclip NPCG3
+	sound_id NPCGhost
+	text [
+		"i may look cute but really i'm the one that haunts you!"
+		"i'm the one that\nwakes you up\nat night"
+		"with those past\nmemories you'd\nlike to forget"
+		"i'm the one\nthat reminds you\nof your mistakes"
+		"\ni am death!"
+		"\nspooky huh?"
+		"really though\nremember when you got the phone call?"
+		"hahah!\n\ngotcha!"
+		"\n. . ."
+		"see you\nin your\ndreams!"
+	]
+}
+
+NPC_ARIDFLATS5 {
+#floating white blob
+	movieclip NPCB4
+	sound_id NPCBlob
+	text [
+		"oh god\ni can\nfeel it!"
+		"i'm ascending!\nit's happening!"
+		"i can\nsee\nsomething!"
+		"it's . . .\nit's\nyou"
+		"you are\nwaving goodbye\nto someone"
+		"but\nthey aren't\nwaving back"
+		"\n. . ."
+		"you are scared\nlost\nand angry"
+		"becoming darker\nand\ndarker"
+		"\n. . ."
+		"who\nare\nyou?"
+	]
+}
+
+NPC_ARIDFLATS6 {
+#mouthless descender
+	movieclip NPCD1
+	sound_id NPCBlob
+	text [
+		"one of us\n\none of us!"
+		"gooble-gobble\n\ngooble-gobble!"
+		"one of us\n\none of us!"
+	]
+}
+
+#OVERFLOW
+
+NPC_OVERFLOW1 {
+#swimming tutorial
+	movieclip NPC8
+	sound_id NPCSkull
+	text [
+		"\nhey dude"
+		"that there\nis\nwater"
+		"your charred\nskin looks a\nbit chapped"
+		"maybe you\nshould\ntake a dip?"
+		"\n. . ."
+		"\nyou dip"
+		"\n. . ."
+		"HA!\n\ngotcha!"
+		"anyway if you\nwanna dive\njust bear down"
+		"jumping will\nkick what's left\nof that foot"
+		"give it\na go\ngimpy!"
+	]
+}
+
+NPC_OVERFLOW2 {
+#toxic water tutorial
+	movieclip NPC13
+	sound_id NPCSkull
+	text [
+		"that water\nis\npolluted"
+		"\n. . ."
+		"at first\nit tickles\na bit"
+		"then it's\nlike a nice\nchemical peel"
+		"i can't\nremember what\nhappens after that"
+		"\n. . ."
+	]
+}
+
+NPC_OVERFLOW3 {
+#gasper jump tutorial
+	movieclip NPC11
+	sound_id NPCSkull
+	text [
+		"\nlook at him"
+		"bloated with gas\nand as good as dead\n. . ."
+		"jump on him\nif you have to"
+		"\nhe won't mind"
+	]
+}
+
+NPC_OVERFLOW4 {
+#baby ascender
+	movieclip NPCB2
+	sound_id NPCBlob
+	text [
+		"oh oh!\na cool guy!"
+		"i wishin i could roll down there in the mire with ya"
+		"but i'm just too cute and innocent\nto descend"
+		"so iz just hangin up here till i die\ni guess"
+	]
+}
+
+NPC_OVERFLOW5 {
+#remake npc overflow
+	movieclip NPC7
+	sound_id NPCSkull
+	text [
+		"i tried\nmy absolute\nhardest"
+		"and in the end\ni got nowhere\n. . ."
+		"but what really\nstings\nis that"
+		"i also\ngot there\nlast"
+		"\n. . ."
+		"\n. . ."
+		"i think it's\ngoing to rain again\ntomorrow"
+	]
+}
+
+NPC_OVERFLOW6 {
+#fat ash descender
+	movieclip NPCD3
+	sound_id NPCBlob
+	text [
+		"mirror mirror\non\nthe wall"
+		"who's the\nblackest sheep\nof all?"
+		"hello\nfellow\noutsider!"
+		"i'm on one\nof my many\nadventures!"
+		"it may appear\nlike i'm\nstanding still"
+		"but on the inside\ni'm creating\nwhole worlds!"
+		"who needs\nto actually\nexperience life"
+		"when you can\njust imagine\na better one!"
+	]
+}
+
+NPC_OVERFLOW7 {
+#dead ghost
+	movieclip NPCG5
+	sound_id NPCGhost
+	text [
+		"when you are dead\nyou will envy\nthe pain"
+		"the living feel\nand will long to\nexperience it again" 
+		"even the most\nhorrible memory\nfor an eternity"
+		"pro tip: don't die\n. . ."
+		"i died and\nlook at me now"
+	]
+}
+
+#THE SPLIT
+
+NPC_SPLIT1 {
+#fake wall tutorial
+	movieclip NPC10
+	sound_id NPCSkull
+	text [
+		"HEY!\n. . .\nGET OUTTA HERE!"
+		"I FOUND\nTHAT GAME CART\nFIRST!"
+		"IT'S RIGHTFULLY\nMINE SO BACK\nOFF UGLY!"
+		"\n. . ."
+		"seriously though\nback the\nfuck off!"
+		"i hid that\ngame cartridge\nages ago"
+		"and i ain't\nletting no\ndescender touch it!"
+		"you are damn\nlucky i ain't\ngot no soul"
+		"\n. . ."
+		"man i'm glad i\nbuilt this\nfalse wall"
+		"really keeps\nout the\nriff raff"
+		"\n. . ."
+		"\nHEY!"
+		"I SAID\nGET LOST\nSTINKY!"
+	]
+}
+
+NPC_SPLIT2 {
+#map tutorial
+	movieclip NPC17
+	sound_id NPCSkull
+	text [
+		"last night\ni\nhad a dream"
+		"it was of\nsomeone\ntelling me"
+		"you can access\nthe map via\nthe pause menu"
+		"\n. . ."
+		"what\ndoes it\nmean!?"
+	]
+}
+
+#WALL OF SORROW
+
+NPC_WALL1 {
+#crazy ghost long story
+	movieclip NPCG6
+	sound_id NPCGhost
+	text [
+		". . .\nfor ages\ni've waited"
+		"for someone\nto\nclimb my tower"
+		"to pass through\nmy traps\nand hazards"
+		"\nhahhahahah!"
+		"you are a\nskilled one\nyou are"
+		"and now\nas your\nreward"
+		"i shall\ntell you a\nlittle story"
+		"once long ago\na man\nwasted his life"
+		"he would look\nfor meaning in everything around him"
+		"always searching\nfor answers\nfor a purpose"
+		"he would walk for\nyears in search of\nhis true fate"
+		"one day\nhe got to a\ngiant dark tower"
+		"it was so large\nand twisting"
+		"that he feared\nhe may\nget lost"
+		"so he would leave\nsmall pieces\nof himself"
+		"behind him\nas he walked"
+		"higher and deeper\ninto the tower\nhe explored"
+		"knowing that this\n. . .\nwould be his legacy"
+		"when he reached the\ntop of the tower\nhe noticed a door"
+		"something\njust beyond the door\nwas glowing"
+		"light emanated\nunder it"
+		"lighting up the room\nhe was standing in"
+		"he tried to take a\nstep towards it but\nhe couldn't"
+		"because\nhis legs\nwere gone"
+		"he tried to\nreach for the knob\nto turn it"
+		"but his\nhands where\ngone"
+		"and when he looked\nback to where he\ncame he saw nothing"
+		"\n. . ."
+		"his head fell\nbackwards off what\nwas left of his torso"
+		"rolling past\nhis\nfingers"
+		"his toes\nhis nose\nand hair"
+		"his palms\nkneecaps\nkidneys and testicles"
+		"rolling faster and\nfaster back down\nthrough the darkness"
+		"till it finally\nlanded in a\npile of bones"
+		"at the base\nof\nthe tower"
+		"and that's\nwhere\nit stayed"
+		"\n. . ."
+		"it's a\ntrue story"
+		"i'm watching\nit happen!"
+	]
+}
+
+NPC_WALL2 {
+#ash climber cart secret skull
+	movieclip NPC11
+	sound_id NPCSkull
+	text [
+		"\noh hey"
+		"i didn't\nknow it\nwas you"
+		"\n. . ."
+		"you realize we\nare being\npunished right?"
+		"\n. . ."
+		"we did something\nwrong at\nsome point"
+		"something\nwe can't\nundo"
+		"\n. . ."
+		"and this\nis our\neternity" 
+		"\n. . ."
+		"he's going to\nbetray you\nyou know"
+		". . .\nhe always\ndoes"
+	]
+}
+
+#SS EXODUS
+
+NPC_EXODUS1 {
+#bomberman
+	movieclip NPCG1
+	sound_id NPCGhost
+	text [
+		"hey why don't you die like the rest of them cancer boy!?"
+		"eh i'm sure you'll find some way to off yourself eventually"
+		"and when it happens i'll take credit! the ladies will love me!"
+		"oh god\nthe admiration!\ni can feel it already!"
+		"just go and self destruct you tired ball of melanoma!"  
+	]
+}
+
+NPC_EXODUS2 {
+#smasher descender
+	movieclip NPCD4
+	sound_id NPCBlob
+	text [
+		"hey!\nhow you\nnot die?"
+		"me bash\nso\nhard"
+		"but you\nstill\nfind me!"
+		"sometime\ni think\ni bash"
+		"to keep people\nfrom doing bash\non me"
+		"do saying that\nmake you like\nme more?"
+		"cuz me only said\nit so you\ndrop guard"
+		"SOZ\nI CAN\nBASH!!!!"
+	]
+}
+
+NPC_EXODUS3 {
+#dead ascender
+	movieclip NPCB3
+	sound_id NPCBlob
+	text [
+		"\nsorry i'm dead"
+		"\n. . ."
+		"\n. . ."
+		"\n. . ."
+		"just joshing you\nthat's just something\na video game said"
+		"you're a\nvideo game\nguy right?"
+	]
+}
+
+#RETROGRADE
+
+NPC_RETROGRADE1 {
+#thin platform tutorial
+	movieclip NPC15
+	sound_id NPCSkull
+	text [
+		"did you know\nif you\nsquish down"
+		"\nand jump" 
+		"you can kinda\nslide through\nthose areas"
+		"\nover there"
+		"\n. . ."
+		"your bones may\nget stuck on\nthe sharp parts"
+		"but at least\nyou've accomplished\nsomething"
+		"look at you . . .\nlord of sliding\ninto tight spaces"
+		"\npitiful"
+	]
+}
+
+NPC_RETROGRADE2 {
+#upside down ascender
+	movieclip NPCB6
+	sound_id NPCBlob
+	text [
+		"wanna know\n\na secret?"
+		"i find meaning\nin\nthe absurd"
+		"like what if there is a reason why you look that way"
+		"what if there is a deep reasoning for everything around us?"
+		"like what if this is some code being laid out for us"
+		"and all we need to do is open our eyes a bit more"
+		"to see it\nfor what\nit is . . ."
+		"like what if i'm\nupside down\nfor a reason!"
+		"what if it helps me see this world for what it really is!?"
+		"\n. . ."
+	]
+}
+
+NPC_RETROGRADE3 {
+#remake npc retrograde
+	movieclip NPC13
+	sound_id NPCSkull
+	text [
+		"the whole place\nis collapsing . . .\nupwards"
+		"and does it\nmatter why?"
+		"one way\nor another\nwe all fall apart"
+		"you too will\n\nin time"
+		"your future\nlies in shards"
+	]
+}
+
+#THE MACHINE
+
+NPC_MACHINE1 {
+#three ascenders
+	movieclip NPCB5
+	sound_id NPCBlob
+	text [
+		"we decided\nto ascend\ntogether"
+		"but when one of us ascended the rest of us got cold feet"
+		"now\nlike you\nwe are rotting"
+		"rotting\neternally\nfrom the inside"
+		"we tried\nto push\nhim away" 
+		"but we have become\nbonded\nby time"
+	]
+}
+
+NPC_MACHINE2 {
+#remake npc machine
+	movieclip NPC10
+	sound_id NPCSkull
+	text [
+		"\nsuch might!"
+		"such\nIMMENSE\npower!"
+		"and nobody left\nto use it on"
+		"\n. . ."
+		"is this how it\nfeels to\nsuffer from success?"
+	]
+}
+
+NPC_MACHINE3 {
+#pac man ghost
+	movieclip NPCG2
+	sound_id NPCGhost
+	text [
+		"waka\nwaka\nwaka"
+		"waka\nwaka\nwaka"
+		"\n. . ."
+		"that my\nfozzy bear\nimpression"
+		"pretty\ngood\nhuh?"
+	]
+}
+
+NPC_MACHINE4 {
+#large descender
+	movieclip NPCD5
+	sound_id NPCBlob
+	text [
+		"HAHAHA!\nwe trick\nyou!"
+		"the mother\nis\nhungry!" 
+		"time\nto\ndie!"
+	]
+}
+
+
+#HOLLOWS
+
+NPC_HOLLOWS1 {
+#dive dash tutorial
+	movieclip NPC4
+	sound_id NPCSkull
+	text [
+		"\n. . ."
+		"wait . . .\nyou can see\nme?"
+		"it's taken years\nfor my\neyeholes to"
+		"adjust to\nthe light down\nhere . . ."
+		"\n. . . "
+		"ever feel like\nyou just gotta\ngo fast?"
+		"you can\nyou\nknow"
+		"you just gotta\nbear down . . .\nhard"
+		"if you go\nfast\nenough"
+		"you can straight\nup smash through\nstuff"
+		"\n. . ."
+		"it's\namazingly\npainful"
+		"but eventually\nyour bones will just\nfragment enough"
+		"in that\nlittle sack\nbody of yours"
+		"you'll become like\nsome kinda bean\nbag type thing"
+		"\n. . ."
+		"\nyou are cute"
+		"can i\ntouch your\nnibs?"
+	]
+}
+
+NPC_HOLLOWS2 {
+#toothy black blob 4cx-9 darkness
+	movieclip NPCD2
+	sound_id NPCBlob
+	text [
+		"\nGRRR!"
+		"get the fuck\nout my\nhidey hole!"
+		"this is my place\nit's safe\nhere!"
+		"no one can\njudge my bad\nlife choices"
+		"unless they got\nnight vision\nand a shovel!"
+		"and that's how\ni like it\ndamn it!"
+		"\nnow leave!"
+	]
+}
+
+NPC_HOLLOWS3 {
+#remake npc hollows
+	movieclip NPC0
+	sound_id NPCSkull
+	text [
+		"i've spent\nmy entire life\nbeing afraid"
+		"afraid of swimming\nafraid of dogs\nafraid of crowds"
+		"you'd think\nthings would get\nbetter after death"
+		"but i've developed a\nfear of darkness\nlying in this cave"
+		"as well as\nsevere\nclaustrophobia"
+	]
+}
+
+#GOLGOTHA
+
+NPC_GOLGOTHA1 {
+#gnarled ghost
+	movieclip NPCG4
+	sound_id NPCGhost
+	text [
+		"we are the things\nthat were and shall\nbe again!"
+		"ahahahaha!\nwe want\nwhat is yours!"
+		"LIFE!\nDEAD BY DAWN!\nDEAD BY DAWN!"
+	]
+}
+
+NPC_GOLGOTHA2 {
+#swirly-eyed descender
+	movieclip NPCD7
+	sound_id NPCBlob
+	text [
+		"the end\nis nigh\nmy friend!"
+		"i can feel it\nin my\nplums!"
+		"the mother\nis calling\nout to us"
+		"her voice\nthe sound of\n5 billion flies"
+		"her children\nher legacy\nher future"
+		"they will cleanse\nthe world of all\nthat remains!"
+		"they are\nthe\nnight!"
+		"the end\nis\ncoming!"
+		"open your mouth\nand let them\ninside you!"
+	]
+}
+
+NPC_GOLGOTHA3 {
+#dig dead cart ascender
+	movieclip NPCB1
+	sound_id NPCBlob
+	text [
+		"\nplease help me!"
+		"that compound eye is\nkeeping me from\nascending"
+		"everytime i try to\nescape he removes\na piece of me"
+		"if i could only\nget out of\nthis room" 
+		"i could finally leave\nthis plane\n. . ."
+		"i could rise above all\nof this petty bullshit\nand become someone" 
+		"it's all his fault!\nit's always someone's\nfault . . ."
+		"who do you blame\nfor what\nhappened to you?"
+	]
+}
+
+#ANGUISH
+
+NPC_ANGUISH1 {
+#lives system tutorial
+	movieclip NPC4
+	sound_id NPCSkull
+	text [
+		"oh hey\nyou are\nawake"
+		"man\nyou missed out\non some"
+		"seriously epic fire\nand brimstone\nbullshit"
+		"it was all\nBAM!!\nBOOOM!"
+		"GAAAHHHH!\nCRUNCH! CRUNCH!\nBABOOMBA!"
+		"\n. . ."
+		"AHHHHHHHHH\nHHHHHHHH\nHHHHHHHHH!!!"
+		"PLEASE NO!\nNOOOOO!\nGAAAHHHHHHHHH!"
+		"\n. . ."
+		"then the\nearth freakin\nopened up"
+		"and every damn\ntortured soul\ncame out"
+		"screaming\ninto the red\nnight sky"
+		"sadly you\nmissed it . . .\nlazy"
+		"\nanyway"
+		"there is nothing\nto live for\nanymore"
+		"i highly\nrecommend giving\nup now"
+		"i did\nand look how\nhappy i am"
+		"\n. . ."
+		"also\ni wouldn't\nrecommend dying"
+		"when you die\nin this place\n. . ."
+		"you leave a\npiece of yourself\nbehind"
+		"\n. . ."
+		"see you on\nthe\nother side!"
+	]
+}
+
+NPC_ANGUISH2 {
+#bad news skull
+	movieclip NPC0
+	sound_id NPCSkull
+	text [
+		"we are\nfucked\ndude"
+	]
+}
+
+NPC_ANGUISH3 {
+#isaac
+	movieclip NPCX1
+	sound_id NPCIsaac
+	text [
+		"mother\nis coming\n. . ."
+		"i can\nhear her\nwhispering"
+		"she's\ncalling\nus"
+		"we have\ndone something\nwrong . . ."
+	]
+}
+
+NPC_ANGUISH4 {
+#remake npc anguish
+	movieclip NPC5
+	sound_id NPCSkull
+	text [
+		"\nit's okay"
+		"\nmistakes happen"
+		"sometimes you\nneed to lose\nan eye or two"
+		"to learn\na valuable lesson"
+	]
+}
+
+#GLOOM
+
+NPC_GLOOM1 {
+#remake npc gloom
+	movieclip NPCES_X1
+	sound_id NPCBlob
+	text [
+		"life is a complex\nnetwork of\nconnections"
+		"and sometimes\nthose connections\nneed to be cut"
+		"for one reason\nor another"
+		"\n. . ."
+		"some of them\nare too strong"
+		"and they take a\npiece of you with\nthem when severed"
+		"\n. . ."
+		"how much can you\ncut off"
+		"before there's\nnothing left\nof you?"
+	]
+}
+
+#BLIGHT
+
+NPC_BLIGHT1 {
+#hole to ruin skull
+	movieclip NPC14
+	sound_id NPCSkull
+	text [
+		"THE END\nIS\nNIGH!"
+		"this time\nit's\nfor real!"
+		"\nno joking!"
+		"you go down\nthere\nyou die!"
+		"\nwe all die!"
+		"\nWE"
+		"\nALL"
+		"\nDIE!!!"
+		"\n. . ."
+		"fucking\nfinally\nright?"
+		"it's time to\nclose the book on\nthis horrid memory"
+		"let the earth open\nand the mother take\nus into forever!"
+	]
+}
+
+NPC_BLIGHT2 {
+#little steven
+	movieclip NPCX2
+	sound_id NPCStevenCameo
+	text [
+		"hey fellow me!\nodd seeing\nyou here"
+		"i see we are\nat it again\nadventures and such"
+		"i assume it will end\nas it always does\nthough"
+		"if you are lucky\nmaybe a piece of you\nwill drop off"
+		"and run away . . .\nmaybe choose the\npath more traveled?"
+		"look at me . . .\nbeing some\nkinda oracle"
+		"anyway\nGET IN\nTHE BOX!"
+		"or whatever\n. . .\nright?"
+	]
+}
+
+NPC_BLIGHT3 {
+#gish
+	movieclip NPCX3
+	sound_id NPCGish
+	text [
+		"oh hey\ni didn't see\nyou there"
+		"do you remember me?\nback when life\nwas simple"
+		"we would just\nhang out\nbeing sticky"
+		"but now you\ngotta be all deep\nand brooding"
+		"you've changed man\n. . .\nlighten up!"
+		"seriously\ngo outside\nor something"
+		"it's time\nto\ntake a break"
+		"no one likes someone\nwho's all\ndoom and gloom"
+		"at least add some\nhumor to lighten it up\na bit"
+		"you didn't even add\nany poo jokes dude!?\nwtf"
+		"here\ni got one\nfor ya"
+		"have you heard\nthe one\nabout the"
+		"constipated\nmathematician\n?"
+		"he worked\nit out\nwith a pencil"
+		"\n. . ."
+		"\nand there you go!"
+	]
+}
+
+NPC_BLIGHT4 {
+#poop
+	movieclip NPC0
+	sound_id NPCSkull
+	text [
+		"\nblarffff. . ."
+		"guh. . .\n\nguh. . ."
+		"help\n. . .\npoop!"
+	]
+}
+
+#RUIN
+
+NPC_RUIN1 {
+#ruin 1 skull
+	movieclip NPC16
+	sound_id NPCSkull
+	text [
+		"\nI SAW HIM!"
+		"I SAW\nTHE\nBAD GUY!"
+		"I SEEN HIM\nDO THE\nBAD STUFF!"
+		"THE HORROR!\nTHE\nHORROR!"
+		"\ni kid"
+		"\n. . ."
+		"\ni was born blind"
+		"\n. . ."
+		"but i have a\nfeeling some\nreally bad stuff"
+		"is gunna\ngo down\ndown here"
+		"some low down\nmud slinging\nstink stank"
+		"\nhe went that way!"
+		"pretty\nsure\nanyway"
+		"we are talking\nabout that\ncorpse right?"
+		"\n. . ."
+		"he\nreeked\nof betrayal"
+		"\nand balls . . ."
+		"giant\nglowing\nballs!"
+		"\n. . ."
+		"you'll get\nthat joke\nlater"
+		"\n. . ."
+		"\nGL!"
+	]
+	
+	alt_text [
+		"what\nare you\ndoing!?"
+		"jump\ninside\nthe mother!"
+		"she will\nprotect\nyou!"
+	]
+}
+
+NPC_RUIN2 {
+#guppy
+	movieclip NPCX4
+	sound_id NPCGuppy
+	text [
+		"wait\nam i from\nthat one game"
+		"or the one\nthat was stuck\nin limbo?"
+		"\n. . ."
+		"i'll\nnever\ntell . . ." 
+	]
+	
+	alt_text [
+		"\nit's fine"
+		"i've been\nthrough\nthis before"
+		"just go limp\nand enjoy\nthe ride!"
+	]
+}
+
+NPC_RUIN3 {
+#aether monster
+	movieclip NPCX5
+	sound_id NPCAether
+	text [
+		"\nsmooch!"
+	]
+	
+	alt_text [
+		"quick! hop on my back and lets fly out of here!"
+		"\n. . ."
+		"just kidding\ni'm not\nactually real"
+	]
+}
+
+#RAPTURE
+
+NPC_RAPTURE1 {
+#world conquering
+    movieclip NPC18
+	sound_id NPCSkull
+	text [
+	    "hey dude!\nlong time\nno see"
+		"how has that\nmaking a friend\nthing been going?"
+		". . .\noh, i see"
+		"well, everyone\nhas rough times\nright?"   
+		"do not let\na few mistakes\ntake over you"
+		"when i was younger\ni kicked a baby\nin the face!"
+		"and look\nat me now!"
+		"healthier and\nstronger than ever"
+		"so go out there\nand conquer\nthe world"
+		"who is gonna\nstop you now!"
+	]
+}
+
+NPC_RAPTURE2 {
+#why?
+    movieclip NPCG6
+	sound_id NPCGhost
+	text [
+	    "i just dont\nknow why?"
+		"why continue after\nall of this?"
+		"there is nothing else\nto be gained\nat this point"
+		"just give up\nlike the rest of us"
+		"\nand enjoy the end"
+		"\n. . ."
+		"this is not even\nthe end anymore"
+		"\njust the clean up"
+	]
+}
+
+NPC_HUB1 {
+#you again
+	movieclip NPC6
+	sound_id NPCSkull
+	text [
+        ". . .\noh my god\n. . ."
+		"my . . .\n. . . head\n. . ."
+		". . .\nhow long was\nthat fall?"
+		"\n. . ." 
+		"\nwait"
+		"\nis that you?"
+		"yes YOU,\n. . .\nIT IS YOU"
+		"\nYOU FOOL"
+		"I TOLD YOU\nIT WAS\nGONNA HAPPEN"
+		"\nIT ALWAYS DOES"
+		"BUT YOU JUST\nNEVER LISTEN"
+		". . .\nYOU FUCKING\n. . ."
+		"\nholy shit"
+		"i am getting\na headache from\nall of this"
+		"\n. . ."
+		"\njust go now"
+		"keep doing what\nyou were doing"
+		"it does not\nmatter anymore"
+	]
+}
+
+NPC_Gustavo {
+#hungry
+	movieclip Gustavo
+	sound_id NPCBlob
+	text [
+		"\nguh. . ."
+	]
+}
+
+#Collapse
+
+NPC_Sploder {
+#Radiation
+    movieclip NPC5
+	sound_id NPCSkull
+	text [
+	    "\ndamn. . ."
+		"i know how\npopular radiation\nis these days"
+		"but these\nmeat sacks\njust never learn"
+		"some of them\nare eating\nway too much!"
+		"be careful\naround the more\nglowy ones"
+		"their bodies\nmight go ballistic\nif disturbed"
+	]
+}
+
+NPCsize2 {
+#i want to believe
+	movieclip NPC15
+	sound_id NPCSkull
+	text [
+		"if you're looking\nfor that fuckin'\nsize two fish"
+		"\nit ain't here"
+		"trust me\ni looked\nreal hard"
+		"\n. . ."
+		"maybe you'll\njust want\nto believe"
+	]
+}
+
+#Desintegration
+
+NPC_desi_1  {
+#MEGA lungs
+    movieclip NPC10
+	sound_id NPCSkull
+	text [
+	    ". . .\nwow\n. . ."
+		"\na new visitor?"
+		"it has been years\nsince i saw\na new face"
+		"\n. . ."
+		"sorry for\nthe mess"
+		"some hooligans\ncame last night\nor something"
+		"they are\nsurprisingly\nstinky"
+		"even more\nthan the usual\nworker"
+		"had to get\nsome new lungs\nfor them"
+		"hope you can\nbuy some too!"
+		"or atleast\nget some\ndeodorant . . ."
+	]
+}
+
+NPC_desi_2  {
+#up and down up and down
+    movieclip 17
+	sound_id NPCSkull
+	text [
+	    "such a fun\ncycle to be in"
+		"up and down\nup and down\nup and down"
+		"up and down\nup and down\n. . ."
+		"for the rest\nof my dull\neternity"
+		"\n. . ."
+		"hope to see you\non the way back!"
+	]
+}
+		
+
