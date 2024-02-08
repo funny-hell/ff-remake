@@ -218,7 +218,7 @@ nodes {
     //carts
 
     Cart1 {
-        clipname cr1
+        clipname cr1 // oe fake
         entrylevel c1-1
         page console
         cart_cheevolevel c1-all
@@ -227,11 +227,11 @@ nodes {
         unlock_condition_levels [r1xd-2]    
         
         down Cart2
-        up Cart2
+        up Cart3
     }
     
     Cart2 {
-        clipname cr2
+        clipname cr2 // untitled bruise game
         entrylevel c2-1
         page console
         cart_cheevolevel c2-all
@@ -239,22 +239,20 @@ nodes {
         unlock_condition collected_carts_all
         unlock_condition_levels [2xu-6]   
         
-        down Cart1
+        down Cart3
         up Cart1
     }
     Cart3 {
         clipname cr3 // ecoli bridge
-        entrylevel cr3-1
-        page console2
-        cart_cheevolevel cr3-all
+        entrylevel c3-1
+        page console
+        cart_cheevolevel c3-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [r3x-1]   
+        unlock_condition_levels [r3xu-1]   
         
-        down Cart2_4
-        up Cart2_2
-		left Cart3
-		right Cart3
+        down Cart1
+        up Cart2
     }
 	Cart2_4 {
         clipname cr4a // assassins cancer

@@ -329,7 +329,7 @@ r1xd {
 	fx_shader_mid lightingmodded
 	midfx_graphics ShadeBox
 	midfx_layer 2
-	shader_param .8
+	shader_param .5
 	
 	toxic_timer 99999
 	
@@ -367,7 +367,7 @@ r1xd {
 	tile_particle_1 smoke_low
 	tile_particle_2 smoke2_low
 	
-	shader_param 0.6
+	shader_param 0.2
 	}
 }
 
@@ -407,7 +407,7 @@ r3 {
     tile_graphics Tileneo_collapse
     overlay_graphics Overlaystheglow
     background_graphics ch3bg_collapse
-    palette 5
+    palette 6
 	
 	do_tilt true
 	
@@ -418,9 +418,10 @@ r3 {
 
     area_type dark
 	
-	npc_1 NPC_Sploder
+	npc_1 NPC_collapse_1
+	npc_2 NPC_collapse_2
 	
-    toxic_timer 1.5
+    toxic_timer 1.05
 	
 	player_physics "data/playerphysics_collapse.txt"
 
@@ -429,52 +430,126 @@ r3 {
 		[OrbLarge, OrbLarge2][ChainLink2, None]
     ]
     
-    global_particle_1 collapseparts_1
+    global_particle_1 collapseparts_2
 	global_particle_2 fog_light
     tile_particle_1 drip
-    tile_particle_2 waterfall_splash
+    tile_particle_2 toxicdump_down
     tile_particle_3 bubbles
+	tile_particle_4 waterfall_splash
     tile_particle_5 toxicbubbles
 	
     music [collapse_intro.ogg, collapse_loop.ogg]
     ambience storm.ogg
 	ambience_volume 1.2
+	
+	1 {
+	palette 5
+	global_particle_1 collapseparts_1
+	}
+	
+	2 {
+	palette 5
+	global_particle_1 collapseparts_1
+	}
+
+	3 {
+	palette 5
+	global_particle_1 collapseparts_1
+	}
+	
+	4 {
+	palette 5
+	global_particle_1 collapseparts_1
+	}	
+	
+	5 {
+	palette 5
+	global_particle_1 collapseparts_1
+	}
 
     6 {
+	palette 5
 	global_particle_1 collapseparts_1t
 	}
 	
     7 {
+	palette 5
 	global_particle_1 none
 	}
-
-	12 {
-		toxic_timer 1.05
+	
+	7t {
+	global_particle_1 collapseparts_2t
 	}
-	13 {
-		toxic_timer 1.05
-	}
-	14 {
-		toxic_timer 1.05
-	}
+	
 	15 {
-		toxic_timer 1.05
+	global_particle_1 collapseparts_2t
 	}
-	16 {
-		toxic_timer 1.05
+	
+    16 {
+	global_particle_1 none
 	}
-	17 {
-		toxic_timer 1.05
+	
+    17 {
+	global_particle_1 collapseparts_2t	
 	}
-	18 {
-		toxic_timer 1.05
-	}
+	
 	19 {
-		toxic_timer 1.05
+	global_particle_1 collapseparts_2t
 	}
-	20 {
-		toxic_timer 1.05
-		npc_1 NPCsize2
+	
+    20 {
+	global_particle_1 none
+	}
+}
+
+r3xu {
+    area_name "Collapse"
+    area_label_frame 5
+    tile_graphics Tileneo_collapse
+    overlay_graphics Overlaystheglow
+    background_graphics ch3bg_collapse
+    palette 6
+	
+	do_tilt true
+	
+    fx_shader reflectionripples
+    fx_shader_mid radiation
+    midfx_graphics SolidBox
+    midfx_layer 2
+
+    area_type dark
+	
+	npc_1 NPC_collapse_3
+	
+    toxic_timer 1.05
+	
+	player_physics "data/playerphysics_collapse.txt"
+
+    art_alts [
+        [MiniFrog, MiniFlea][OrbSmall, OrbBlob2][FloatingMine, LivingMine]
+		[OrbLarge, OrbLarge2][ChainLink2, None][Cartridge, cart2]
+    ]
+    
+    global_particle_1 collapseparts_2
+	global_particle_2 fog_light
+    tile_particle_1 drip
+    tile_particle_2 toxicdump_down
+    tile_particle_3 bubbles
+	tile_particle_4 waterfall_splash
+    tile_particle_5 toxicbubbles
+	
+	music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	stop_previous_music false
+    ambience storm.ogg
+	ambience_volume 1.2
+	
+	1 {
+	    global_particle_1 collapseparts_2t
+	}
+	
+	2 {
+		tile_graphics Tiletox
+		global_particle_1 none
 	}
 }
 
@@ -565,7 +640,7 @@ r5b {
 	
 	decoration_1 Decofastconv
 	
-	npc_1 NPC_desi_1
+	npc_1 NPC_disi_1
 	
 	toxic_timer 0.8
     
@@ -687,9 +762,38 @@ c2 {
         [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
         [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
         [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-		[CreepingMass, CreepingMassRetro][OrbSmall, RetroOrbSmall][OrbLarge, RetroOrbLarge][OrbChomp, OrbChompretro][OrbChomp, MovingOrbBlobretro][ChargeSlug, RetroChargerSlug]
+		[CreepingMass, CreepingMassRetro][OrbSmall, BlobOrbSmallretro][OrbLarge, BlobOrbLargeretro][OrbChomp, OrbChompretro][OrbChomp, MovingOrbBlobretro][ChargeSlug, RetroChargerSlug]
 		[Floater, FloaterGlitch][SkullFloaterBreaky, SkullFloaterretroBreaky][FloatingMine, FloatingMineRetro]
 		[BigCharger, RetroBigChargerSlug][ElectroBall, RetroElectroBall][Fish, RetroFish]
+    ]
+}
+
+c3 {
+    tile_graphics TileGlitch
+    overlay_graphics Overlaysretro
+    background_graphics bgretrox
+    foreground_graphics none
+    palette 23
+
+    toxic_timer 1.05	
+
+    music [retro/1812_intro.ogg, retro/1812_loop.ogg]
+	
+	player_physics "data/playerphysics_collapse.txt"
+
+    cart_intro_png ecoli
+    cart_intro_palette 22
+
+    area_type glitch
+
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, none]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+        [ElectroBall, RetroElectroBall][OrbSmall, BlobOrbSmallretro][OrbLarge, BlobOrbLargeretro][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, FloaterGlitch]
+        [Fish, RetroFish][CreepingMass, CreepingMassRetro][FloatingMine, LivingMineRetro][ThwampGear, ThwampGearRetro][SkullFloaterBreaky, SkullFloaterretroBreaky]
     ]
 }
 
