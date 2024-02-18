@@ -15,7 +15,7 @@ pages {
 meta {
     default_node Nevermore
     
-    leftwipes [r2-0 r3-1 hub-1 r4b-1]
+    leftwipes [r2-1 r3-1 hub-1 r4b-1]
     rightwipes [r1-20 r2-19 r3-20 hub-1]
     upwipes [4b-15]
     downwipes []
@@ -81,15 +81,17 @@ nodes {
 		left Nevermore
 		right Wastelands
     }
+	
     Wastelands {
         clipname wastelands
-        entrylevel r2-0
+        entrylevel r2-1
         page darkerworld
         levelgroups [r2 r2xd r2xu]
         
         left Rapture
 		right Collapse
     }
+	
     Collapse {
         clipname collapse
         entrylevel r3-1

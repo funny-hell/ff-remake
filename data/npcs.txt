@@ -91,6 +91,8 @@ NPC_collapse_1 {
 		"some of them\nare eating\nway too much!"
 		"be careful\naround the more\nglowy ones"
 		"their bodies\nmight go ballistic\nif disturbed"
+		"sadly their\nflesh is weak"
+		"and it will not\nhave the same boom\nas other explosives"
 	]
 }
 

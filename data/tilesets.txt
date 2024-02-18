@@ -124,9 +124,16 @@ r1 {
 	ambience flesh.ogg
 	ambience_volume 1.6
     
+    0 {
+        area_name "none"
+        area_label_frame 0
+    }	
+	
     1 {
         area_name "none"
         area_label_frame 0
+		
+		music_volume 0.3
     }
 	
 	7 {
@@ -376,20 +383,21 @@ r2 {
     area_label_frame 4
     tile_graphics Tilegraveyard
     overlay_graphics Overlayshell
-    background_graphics field2bg
+    background_graphics field2bg_waste
     foreground_graphics None
     palette 4
 	
-	fx_shader lavaripples
-	fx_shader_mid lavaglow_exhaust
+	fx_shader reflectionripples
+	fx_shader_mid radiation
 	midfx_graphics SolidBox
 	midfx_layer 2
     
     area_type dark
 	
 	global_particle_1 fog_light
-    global_particle_2 rocks
+	global_particle_2 rocks
 	global_particle_3 storm2
+	decoration_1 CreepingMass
 	decoration_2 TileToxDeco1
 
     art_alts [
@@ -435,7 +443,7 @@ r3 {
     tile_particle_1 drip
     tile_particle_2 toxicdump_down
     tile_particle_3 bubbles
-	tile_particle_4 waterfall_splash
+	tile_particle_4 toxicdump_down2
     tile_particle_5 toxicbubbles
 	
     music [collapse_intro.ogg, collapse_loop.ogg]
@@ -573,16 +581,24 @@ hub {
 	global_particle_1 wind2
 	global_particle_2 wind
 	global_particle_3 cloudwind
-	decoration_1 CreepingMass
+	decoration_1 OrbBlob2
 	decoration_2 TileCavesDeco2
+	decoration_3 OrbLarge2
 
 	music [hub_intro.ogg, hub_loop.ogg]
 	ambience wind.ogg
-
+	
+	1 {
 	art_alts [
-		[AimSpitter,eyeshooter][ChainLink2, None]
-		[Bullet,eyebullet][MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2]
+	[OrbSmall, OrbBlob2][OrbLarge, OrbLarge2][ChainLink2, None]
 	]
+    }
+	
+	2 {
+	art_alts [
+	[OrbSmall, OrbBlob2][OrbLarge, OrbLarge2][ChainLink2, None]
+	]
+    }
 }
 
 r4b {
