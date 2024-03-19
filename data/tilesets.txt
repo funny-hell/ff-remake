@@ -394,19 +394,179 @@ r2 {
     
     area_type dark
 	
+	tile_particle_4 debris_meat
 	global_particle_1 fog_light
 	global_particle_2 rocks
 	global_particle_3 storm2
 	decoration_1 CreepingMass
 	decoration_2 TileToxDeco1
+	decoration_3 OrbBlob2
+	
+    platform_physics "data/platformphysics_waste.txt"
 
     art_alts [
-        [AimSpitter,eyeshooter][OrbChomp, MovingOrbBlob]
-        [Bullet,eyebullet][MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2][ChainLink2, None]
+        [MiniFrog, MiniFlea][OrbSmall, OrbBlob2][OrbLarge, OrbLarge2][ChainLink2, None][Floater, Floater_fast]
     ]
     
     music [wastelands_intro.ogg, wastelands_loop.ogg]
     ambience flesh.ogg
+	
+	6 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast]
+    ]
+	}
+	
+	7 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast]
+    ]
+	}
+	
+	8 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast]
+    ]
+	}
+	
+	9 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast2]
+    ]
+	}
+	
+	10 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast3]
+    ]
+	}
+	
+	11 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast4]
+    ]
+	}
+	
+	12 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast4]
+    ]
+	}
+	
+	13 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast]
+    ]
+	}
+	
+	14 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast3]
+    ]
+	}
+	
+	15 {
+    art_alts [
+        [MiniFrog, MiniFlea][Floater, Floater_fast3]
+    ]
+	}
+	
+	15t {
+	decoration_3 BIRB_nest
+	
+    art_alts [
+        [MiniFrog, MiniFlea][Floater, Floater_fast3]
+    ]
+	}
+	
+	15t2 {
+    art_alts [
+        [MiniFrog, MiniFlea][Floater, Floater_fast3]
+    ]
+	}
+	
+	16 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast3]
+    ]
+	}
+	
+	17 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast3]
+    ]
+	}
+	
+	18 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast3]
+    ]
+	}
+	
+	19 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast3]
+    ]
+	}
+	
+	19t {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast3]
+    ]
+	}
+	
+	20 {
+    art_alts [
+        [MiniFrog, MiniFlea][OrbLarge, OrbLarge2][Floater, Floater_fast3]
+    ]
+	}
+}
+
+r2xu {
+    area_name "Wastelands"
+    area_label_frame 4
+    tile_graphics Tilegraveyard
+    overlay_graphics Overlayshell
+    background_graphics field2bg_waste
+    foreground_graphics None
+    palette 4
+	
+	fx_shader reflectionripples
+	fx_shader_mid radiation
+	midfx_graphics SolidBox
+	midfx_layer 2
+    
+    area_type dark
+	
+	tile_particle_4 debris_meat
+	global_particle_1 fog_light
+	global_particle_2 rocks
+	global_particle_3 storm2
+	decoration_1 CreepingMass
+	decoration_2 TileToxDeco1
+	decoration_3 OrbBlob2
+	
+    platform_physics "data/platformphysics_waste.txt"
+
+    art_alts [
+        [MiniFrog, MiniFlea][Floater, Floater_fast3]
+    ]
+    
+	music [none, gymnopedies_new_loop.ogg]
+    ambience flesh.ogg
+	ambience_volume 0.8
+	
+	2 {
+    art_alts [
+        [MiniFrog, MiniFlea][Floater, Floater_fast4][OrbLarge, OrbLarge2]
+    ]
+    }
+	
+	3 {
+    art_alts [
+        [MiniFrog, MiniFlea][Floater, Floater_fast4][Cartridge, cart2]
+    ]
+    }
 }
 
 r3 {

@@ -31,6 +31,39 @@ debris {
 	tags [collide_tile]
 }
 
+debris_meat {
+	movieclip soliddrip2
+	max_particles 500
+	layer 2
+	livebounds [-10, 64, -10, 42]
+	prewarm 0
+	batched false
+	
+	#emitter properties
+	emit_rate [1,2]
+	emit_amount [2,4]
+	emit_direction [1, 0]
+	emit_box [1, 1]
+	emit_offset [-.5,0]
+	emit_spread 15
+	
+	#particle animation properties
+	particle_lifetime .5
+	initial_speed 5
+	initial_rotation [-160,-200]
+	rotation_speed [0,0]
+	force [0,0]
+	friction 1
+	size_start 2
+	size_end 1
+	alpha_start 1
+	alpha_end .2
+	face_moving_direction true
+	speed_scale 0
+	inherit_speed 1
+	tags [collide_tile]
+}
+
 debris_l {
 	inherit debris
 	

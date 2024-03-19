@@ -10,13 +10,25 @@ pages {
     console {
         collectibles 0 //lives + biglives + carts + bodyparts
     }
+	
+	rapture_map { 
+	    collectibles 1
+	}
+	
+	wastelands_map {
+	    collectibles 1
+	}
+	
+	collapse_map {
+	    collectibles 1
+	}
 }
 
 meta {
     default_node Nevermore
     
     leftwipes [r2-1 r3-1 hub-1 r4b-1]
-    rightwipes [r1-20 r2-19 r3-20 hub-1]
+    rightwipes [r1-20 r2-20 r3-20 hub-1]
     upwipes [4b-15]
     downwipes []
     
@@ -71,31 +83,57 @@ nodes {
 		down Rapture
 		right Rapture
     }
+	
 	Rapture {
-        clipname rapture
+        clipname mapnode1
         entrylevel r1-1
-        page darkerworld
+        page rapture_map
         levelgroups [r1 r1xd r1xu]
-        
-        up Nevermore
-		left Nevermore
+       
+		down Nevermore
 		right Wastelands
+		left Stevennode1
     }
 	
+	Stevennode1 {
+	    clipname steven_node1
+		entrylevel rd1-1
+		page rapture_map
+		levelgroups [rd1]
+		
+		right Rapture
+	}
+	
+	Waste_nodes { 
+	    clipname mapnotes_waste
+		entrylevel none
+		page rapture_map
+		unlock_condition visited_levels_all
+		unlock_condition_levels [r2-1]
+	}
+	
     Wastelands {
-        clipname wastelands
+        clipname mapnode2
         entrylevel r2-1
-        page darkerworld
+        page wastelands_map
         levelgroups [r2 r2xd r2xu]
         
         left Rapture
 		right Collapse
     }
 	
+	Collapse_nodes {
+	   clipname mapnotes_collapse
+	   entrylevel none
+	   page wastelands_map
+	   unlock_condition visited_levels_all
+	   unlock_condition_levels [r3-1]
+	}
+	
     Collapse {
-        clipname collapse
+        clipname mapnode3
         entrylevel r3-1
-        page darkerworld
+        page collapse_map
         levelgroups [r3 r3xd r3xu]
         
         left Wastelands
@@ -213,8 +251,7 @@ nodes {
         entrylevel 15x-1
         page darkerworld
         levelgroups [15x]
-        unlock_condition collected_carts_any
-        unlock_condition_levels [15x-2 15x-4 15x-6 15x-8]    
+		unlock_condition always_unlocked
     }
     
     //carts
