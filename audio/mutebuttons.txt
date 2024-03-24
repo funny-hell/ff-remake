@@ -74,7 +74,7 @@ SoundEffectGroups {
 
     Splash { #testlevels: 3-0
         files [splash1.wav, splash2.wav, splash3.wav, splash4.wav, splash5.wav, splash6.wav, splash7.wav, splash8.wav, splash9.wav]
-        volume 1.5
+        volume 0
         pitch_range [.8, 1.2]
         falloff .7
     }
@@ -223,7 +223,7 @@ SoundEffectGroups {
 
     Click {  #testlevels: 5bxd-6
         files [click1.wav, click2.wav, click3.wav]
-        volume 0
+        volume 1
         pitch_range [.8, 1.2]
     }
 
@@ -271,7 +271,7 @@ SoundEffectGroups {
 
     SpikeToggle{
         files[Spike-001.wav,Spike-002.wav,Spike-003.wav,Spike-004.wav]
-        volume 1
+        volume 0
         falloff 999
         pan_falloff 999
     }

@@ -43,38 +43,136 @@ NPC_RAPTURE2 {
 	]
 }
 
-NPC_HUB1 {
-#you again
-	movieclip NPC6
+#Wastelands
+
+NPC_WASTE1 {
+#birbs
+    movieclip NPC2
 	sound_id NPCSkull
 	text [
-        ". . .\noh my god\n. . ."
-		"my . . .\n. . . head\n. . ."
-		". . .\nhow long was\nthat fall?"
-		"\n. . ." 
-		"\nwait"
-		"\nis that you?"
-		"yes YOU,\n. . .\nIT IS YOU"
-		"\nYOU FOOL"
-		"I TOLD YOU\nIT WAS\nGONNA HAPPEN"
-		"\nIT ALWAYS DOES"
-		"BUT YOU JUST\nNEVER LISTEN"
-		". . .\nYOU FUCKING\n. . ."
-		"\nholy shit"
-		"i am getting\na headache from\nall of this"
+	    "hey pal\n . . ."
+		"don't worry,\nyou are safe\nfrom them with me"
+	    "\n. . ."
+		"do you hate\nthem too?"
+		"yeah,\ni know you do"
+		"don't try\nto hide it"
+		"their poop can\nreach unimaginable\nplaces"
 		"\n. . ."
-		"\njust go now"
-		"keep doing what\nyou were doing"
-		"it does not\nmatter anymore"
+		"oh well,\njust so\nyou know"
+		"trying to mess\nwith them is\nreally dangerous"
+		"so try to\navoid jumping\non them"
+		"unless you\nreally need it"
+		"or you just\nwant to give\nthem brain cancer"
+		"both are valid\nfor me"
 	]
 }
 
-NPC_Gustavo {
-#hungry
-	movieclip Gustavo
-	sound_id NPCBlob
+NPC_WASTE2 {
+#stuck stepbro
+    movieclip NPC9
+	sound_id NPCSkull
 	text [
-		"\nguh . . ."
+		". . .\nuh?\n. . ."
+		". . .\nOH!"
+		"HEY,\nOVER HERE"
+		"FINALLY, SOMEONE\nHAS COME\nTO SAVE ME"
+		"I'VE BEEN STUCK\nIN HERE FOR\nYEA . . r . . s . ."
+		"\noh"
+		"you don't even\nhave arms . . ."
+		". . .\nwell\n. . ."
+		"this is akward\n. . ."
+		"\n. . ."
+		"\nHEY!"
+		"don't try to\nleave me here"
+		"\nwe've just met"
+		"\nhmm . . ."
+		"well, wanna tell\nme something\nabout you?"
+		"\n. . ."
+		"\nnothing?"
+		"\n. . ."
+		"damn, i wish\nyou were\nmore enthusiastic"
+		"\n. . ."
+		"oh well, i'll\ntell you about\nmyself then"
+		"but where\nshould i start\n. . ."
+		"oh right!\nhow i ended up\nstuck in here"
+		"\nyou see . . ."
+		"it all started\nwhen i was\nwith my wife"
+		"god bless\nher soul"
+		"or actually,\nmaybe i was\nalready dead"
+		"with her it\njust felt the same\n. . ."
+		"\nanyway"
+		"i wasn't\non my proudest\nform then"
+		"kinda just laying\ndown on the floor"
+		"not much more\nyou can do\nwhile dead"
+		"actually,\nam i really dead?"
+		"i'm talking\nto you\nright now!"
+		"\n. . ."
+		"maybe you\nare also just dead"
+		"and this is\nsome sort of\nweird purgatory"
+		"oh well,\nwhile i was\nlaying on the floor"
+		"three really angry\nlooking skulls\ncame for me"
+		"or maybe they\nwhere just two\n. . ."
+		"not like it\nreally matters\nanyway"
+		"they reminded me\nof myself, my brother\nand my wife"
+		"god bless\nher soul"
+		"but now that\ni think about it\n. . ."
+		"she spent a lot\nof time with\nmy brother"
+		"yeah . . .\nthat sneaky bitch!"
+		"anyway,\ni'm going off\nthe rails"
+		"those pesky little\nskulls tried\nto pull me"
+		"but they\nhad little chance\nof pulling that out"
+		"because of me being\na heavyweight\nchampion of combat"
+		"and by combat\ni mean fighting\nwith my wife"
+		"i still remember\nwhen i punched two\nteeth of her"
+		"\nhoho!"
+		"\n. . ."
+		"god bless\nher soul"
+		"\n. . ."
+		"well . . .\nthat day i hadn't\neaten too much"
+		"so those skulls\nactually pulled\nme into the sky"
+		"it was really,\nreally\nbeautiful"
+		"i always dreamed\nof being a\npilot you know?"
+		"riding those\nbeasts of the sky"
+		"killing thousands\nwith a few bombs"
+		"perfect way\nof spending\nan afternoon really"
+		"you should think\nabout it\nsomeday"
+		"i'm sure you\nwould like it"
+		"\nwell . . ."
+		"my bitch wife hated\nthe idea of me\nliving in the skies"
+		"god bless\nher soul"
+		"she would always\nsay to me"
+		"you are gonna\ndie flying\nthose things"
+		"and i would just\nignore her"
+		"i would watch\nthe TV instead"
+		"the TV would never\nsay those things\nto me"
+		"well,\nstop trying to\ndistract me"
+		"\nwhere was i . . ."
+		"oh yeah\nthose birds . . ."
+		"they took\nme here"
+		"probably wanted to\nmake a good\nfoundation with me"
+		"those little\npricks . . ."
+		"why couldn't they\njust use some\nwood or something"
+		"am i really\nthat good as a\nsupport?"
+		"\nprobably not . . ."
+		"\n. . ."
+		"that actually\nreminds me\nof something"
+		"the place that\ni worked at"
+		"had this\nHUGE wall"
+		"fucking massive,\nalmost unclimbable"
+		"and even considering\ni had a really big\nrole on the company"
+		"i never knew\nwhat was behind\nthat thing"
+		"but you want\nto know\na secret?"
+		"i knew the code\nto enter it"
+		"well, not the\nfull thing"
+		"being stuck in here\ndoes that to you"
+		"but from what\ni can remember"
+		"it went something like\n. . ."
+		"\n1-0-1-1 . . ."
+		"after that\ni don't remember"
+		"if only you hadn't\nmade me go\noff topic so much"
+		"maybe i would\nstill remember it"
+		"just like how\ni can remember\nmy wife"
+		"god bless\nher soul"
 	]
 }
 
@@ -124,6 +222,41 @@ NPC_collapse_3 {
 		"trust me\ni looked\nreal hard"
 		"\n. . ."
 		"maybe you'll\njust want\nto believe"
+	]
+}
+
+NPC_HUB1 {
+#you again
+	movieclip NPC6
+	sound_id NPCSkull
+	text [
+        ". . .\noh my god\n. . ."
+		"my . . .\n. . . head\n. . ."
+		". . .\nhow long was\nthat fall?"
+		"\n. . ." 
+		"\nwait"
+		"\nis that you?"
+		"yes YOU,\n. . .\nIT IS YOU"
+		"\nYOU FOOL"
+		"I TOLD YOU\nIT WAS\nGONNA HAPPEN"
+		"\nIT ALWAYS DOES"
+		"BUT YOU JUST\nNEVER LISTEN"
+		". . .\nYOU FUCKING\n. . ."
+		"\nholy shit"
+		"i am getting\na headache from\nall of this"
+		"\n. . ."
+		"\njust go now"
+		"keep doing what\nyou were doing"
+		"it does not\nmatter anymore"
+	]
+}
+
+NPC_Gustavo {
+#hungry
+	movieclip Gustavo
+	sound_id NPCBlob
+	text [
+		"\nguh . . ."
 	]
 }
 

@@ -127,6 +127,8 @@ r1 {
     0 {
         area_name "none"
         area_label_frame 0
+		
+		decoration_2 Wip_sign_2
     }	
 	
     1 {
@@ -360,7 +362,7 @@ r1xd {
 		[Cartridge, cart2]
 	] 
 
-	music [hmk_secret_intro.ogg, hmk_secret_loop.ogg]
+	music [none, homk_secret_loop.ogg]
 	stop_previous_music false
 	ambience flesh.ogg
 	ambience_volume 1.2
@@ -394,6 +396,8 @@ r2 {
     
     area_type dark
 	
+	npc_1 NPC_WASTE1
+	
 	tile_particle_4 debris_meat
 	global_particle_1 fog_light
 	global_particle_2 rocks
@@ -409,7 +413,9 @@ r2 {
     ]
     
     music [wastelands_intro.ogg, wastelands_loop.ogg]
-    ambience flesh.ogg
+    ambience fleshwinds.ogg
+	
+	sfx_file mutebuttons.txt
 	
 	6 {
     art_alts [
@@ -546,6 +552,8 @@ r2xu {
 	decoration_2 TileToxDeco1
 	decoration_3 OrbBlob2
 	
+	npc_1 NPC_WASTE2
+	
     platform_physics "data/platformphysics_waste.txt"
 
     art_alts [
@@ -553,8 +561,9 @@ r2xu {
     ]
     
 	music [none, gymnopedies_new_loop.ogg]
-    ambience flesh.ogg
-	ambience_volume 0.8
+    ambience fleshwinds.ogg
+	stop_previous_music false
+	ambience_volume 0.5
 	
 	2 {
     art_alts [
@@ -567,6 +576,11 @@ r2xu {
         [MiniFrog, MiniFlea][Floater, Floater_fast4][Cartridge, cart2]
     ]
     }
+	
+	4 {
+	music [none, nern_theme.ogg ]
+	music_volume 1.5
+	}
 }
 
 r3 {
@@ -749,6 +763,8 @@ hub {
 	ambience wind.ogg
 	
 	1 {
+	decoration_3 Wip_sign
+	
 	art_alts [
 	[OrbSmall, OrbBlob2][OrbLarge, OrbLarge2][ChainLink2, None]
 	]
@@ -759,6 +775,10 @@ hub {
 	[OrbSmall, OrbBlob2][OrbLarge, OrbLarge2][ChainLink2, None]
 	]
     }
+	
+	5 {
+	decoration_3 Wip_sign
+	}
 }
 
 r4b {
@@ -923,12 +943,14 @@ c2 {
     foreground_graphics none
     palette 21
     
-    music [glitch/danse_intro.ogg, glitch/danse_loop.ogg]
+    music [retro/newworld_intro.ogg, retro/newworld_loop.ogg]
 
     cart_intro_png bruisegame
     cart_intro_palette 20
 	
 	decoration_1 CreepingMassRetro
+	
+    platform_physics "data/platformphysics_waste_retro.txt"
     
     area_type glitch
 
@@ -937,10 +959,9 @@ c2 {
         [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
         [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
         [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
-        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro][ChainHitch,ChainHitchRetro]
-		[CreepingMass, CreepingMassRetro][OrbSmall, BlobOrbSmallretro][OrbLarge, BlobOrbLargeretro][OrbChomp, OrbChompretro][OrbChomp, MovingOrbBlobretro][ChargeSlug, RetroChargerSlug]
-		[Floater, FloaterGlitch][SkullFloaterBreaky, SkullFloaterretroBreaky][FloatingMine, FloatingMineRetro]
-		[BigCharger, RetroBigChargerSlug][ElectroBall, RetroElectroBall][Fish, RetroFish]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, BlobOrbLargeretro][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, FloaterGlitch]
+        [Fish, RetroFish][CreepingMass, CreepingMassRetro][FloatingMine, LivingMineRetro][ThwampGear, ThwampGearRetro][SkullFloaterBreaky, SkullFloaterretroBreaky]
     ]
 }
 

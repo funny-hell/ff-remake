@@ -276,7 +276,7 @@ nodes {
         cart_cheevolevel c2-all
         cart_splashframe glitch
         unlock_condition collected_carts_all
-        unlock_condition_levels [2xu-6]   
+        unlock_condition_levels [r2xu-3]   
         
         down Cart3
         up Cart1
