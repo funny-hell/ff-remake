@@ -11,6 +11,10 @@ pages {
         collectibles 0 //lives + biglives + carts + bodyparts
     }
 	
+	nevermore_map { 
+	    collectibles 0
+	}
+	
 	rapture_map { 
 	    collectibles 1
 	}
@@ -36,7 +40,7 @@ meta {
     steventhreshtumors [0]
     stevenlevels [r1-1]
     
-    mainworlds [start r1 r2 r3 hub r4a r5a r4b r5b] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
+    mainworlds [start r1 r2 r3 r4a r5a r4b r5b] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
     cartworlds [c1 c2 c3 c4a c5a] //launch console automatically when you exit from these worlds
     
     headlevel 5a-22
@@ -63,7 +67,7 @@ meta {
     savefile_completion_counter_max 285 //count of total collectible tumors, carts, body parts (3), cart achievements, map warp points (number of levels in the array below), and endings (2)
     savefile_completion_warpoints [start-3 r1-1 r2-0 r3-1 hub-1 r4b-1 r5b-1] //visiting these levels counts for save file completion
     save_initiallevel c9-0
-    save_lightspawn intro-2
+    save_lightspawn start-0
     save_darkspawn 1d-1
     save_lightspawnlabel "Nevermore?"  //since the game can set your save to these levels without visiting them, their names need to be manually set so they show up on the save
     save_darkspawnlabel "Dark Rapture"
@@ -74,15 +78,21 @@ nodes {
 	//FUTURE FUTURE LETS GO
 	
 	Nevermore {
-        clipname nevermore
+        clipname mapnode0
         entrylevel start-3
-        page darkerworld
+        page nevermore_map
 		levelgroups [start]
 		unlock_condition always_unlocked
         
-		down Rapture
-		right Rapture
+		up Rapture
     }
+	
+	Rapture_nodes {
+		clipname mapnotes_rapture
+		page nevermore_map
+		unlock_condition visited_levels_any
+		unlock_condition_levels [r1-1]
+	}
 	
 	Rapture {
         clipname mapnode1
@@ -106,9 +116,8 @@ nodes {
 	
 	Waste_nodes { 
 	    clipname mapnotes_waste
-		entrylevel none
 		page rapture_map
-		unlock_condition visited_levels_all
+		unlock_condition visited_levels_any
 		unlock_condition_levels [r2-1]
 	}
 	
@@ -123,11 +132,10 @@ nodes {
     }
 	
 	Collapse_nodes {
-	   clipname mapnotes_collapse
-	   entrylevel none
-	   page wastelands_map
-	   unlock_condition visited_levels_all
-	   unlock_condition_levels [r3-1]
+		clipname mapnotes_collapse
+		page wastelands_map
+		unlock_condition visited_levels_any
+		unlock_condition_levels [r3-1]
 	}
 	
     Collapse {
@@ -137,7 +145,7 @@ nodes {
         levelgroups [r3 r3xd r3xu]
         
         left Wastelands
-		right Hubz
+		#right Hubz
     }
 	
     Hubz {

@@ -32,14 +32,12 @@ NPC_RAPTURE2 {
     movieclip NPCG6
 	sound_id NPCGhost
 	text [
-	    "i just dont\nknow why?"
-		"why continue after\nall of this?"
-		"there is nothing else\nto be gained\nat this point"
-		"just give up\nlike the rest of us"
-		"\nand enjoy the end"
+	    "do you think\nwe deserved\nall of this?"
 		"\n. . ."
-		"this is not even\nthe end anymore"
-		"\njust the clean up"
+		"\nof course not"
+		"that's why\nyou are still\nhere"
+		"\n. . ."
+		"if only i hadn't\nleft my oven\nturned on . . ."
 	]
 }
 
@@ -222,6 +220,26 @@ NPC_collapse_3 {
 		"trust me\ni looked\nreal hard"
 		"\n. . ."
 		"maybe you'll\njust want\nto believe"
+	]
+}
+
+NPC_HUB_demo {
+#that's all folks!
+    movieclip NPC7
+	sound_id NPCSkull
+	text  [
+	    "\nhello mate!"
+		"good to see\nyou made it\nthis far"
+		"i would love\nto show you\neven more stuff"
+		"\nbut sadly"
+		"time is\nquite limited"
+		"\nand taxes suck"
+		"so you will\nhave to wait"
+		"in the mean time,\nwhy don't you go\nand play some carts?"
+		"you could even\ntry to beat them\ndeathless!"
+		"\n. . ."
+		"or just look\nat the files\nfor WIP stuff"
+		"both work\nfor me!"
 	]
 }
 

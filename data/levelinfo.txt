@@ -32,6 +32,35 @@
 "r1xd-1" {name="???" id=-1}
 "r1xd-2" {name="???" id=1} #cart
 
+"r2-1" {name="Wastelands 1" id=-1}
+"r2-2" {name="Wastelands 2" id=-1}
+"r2-3" {name="Wastelands 3" id=-1}
+"r2-4" {name="Wastelands 4" id=-1}
+"r2-5" {name="Wastelands 5" id=-1}
+"r2-6" {name="Wastelands 6" id=-1}
+"r2-7" {name="Wastelands 7" id=-1}
+"r2-8" {name="Wastelands 8" id=-1}
+"r2-9" {name="Wastelands 9" id=-1}
+"r2-10" {name="Wastelands 10" id=-1}
+"r2-11" {name="Wastelands 11" id=-1}
+"r2-12" {name="Wastelands 12" id=-1}
+"r2-13" {name="Wastelands 13" id=-1}
+"r2-14" {name="Wastelands 14" id=-1}
+"r2-15" {name="Wastelands 15" id=-1}
+"r2-15t" {name="Wastelands" id=-1}
+"r2-15t2" {name="Wastelands" id=-1}
+"r2-16" {name="Wastelands 16" id=-1}
+"r2-17" {name="Wastelands 17" id=-1}
+"r2-18" {name="Wastelands 18" id=-1}
+"r2-19" {name="Wastelands 19" id=-1}
+"r2-19t" {name="Wastelands" id=-1}
+"r2-20" {name="Wastelands 20" id=-1}
+
+"r2xu-1" {name="???" id=-1}
+"r2xu-2" {name="???" id=-1}
+"r2xu-3" {name="???" id=1} #cart
+"r2xu-4" {name="???" id=-1} #nern
+
 "r3-1" {name="Collapse 1" id=-1}
 "r3-2" {name="Collapse 2" id=-1}
 "r3-3" {name="Collapse 3" id=-1}
@@ -69,6 +98,17 @@
 "c1-8" {name="O3 F4#e-8" id=-1}
 "c1-9" {name="O3 F4#e-9" id=-1}
 "c1-10" {name="O3 F4#e-10" id=-1}
+
+"c2-1" {name="Unt1tl3d Brui5e G4m3-1" id=-1}
+"c2-2" {name="Unt1tl3d Brui5e G4m3-2" id=-1}
+"c2-3" {name="Unt1tl3d Brui5e G4m3-3" id=-1}
+"c2-4" {name="Unt1tl3d Brui5e G4m3-4" id=-1}
+"c2-5" {name="Unt1tl3d Brui5e G4m3-5" id=-1}
+"c2-6" {name="Unt1tl3d Brui5e G4m3-6" id=-1}
+"c2-7" {name="Unt1tl3d Brui5e G4m3-7" id=-1}
+"c2-8" {name="Unt1tl3d Brui5e G4m3-8" id=-1}
+"c2-9" {name="Unt1tl3d Brui5e G4m3-9" id=-1}
+"c2-10" {name="Unt1tl3d Brui5e G4m3-10" id=-1}
 
 "c3-1" {name="3-C0l1 Br1/)g3-1" id=-1}
 "c3-2" {name="3-C0l1 Br1/)g3-2" id=-1}

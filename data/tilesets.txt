@@ -80,6 +80,26 @@ start {
 		[Cartridge, cart2]
 		[SpeechBubble2, SpeechBubble2_xsteven]
 	]
+	
+	0 {
+	decoration_2 black_screen
+	
+	ambience_volume 1.8
+    area_label_frame 0
+	
+	global_particle_3 none
+	}
+	
+	1 {
+    area_name "none"
+    area_label_frame 0
+	}
+	
+	2 {
+    area_name "none"
+    area_label_frame 0
+	}
+	
 }
 
 #THE FAR FUTURE?
@@ -748,6 +768,7 @@ hub {
 	area_type dark
 	
 	npc_1 NPC_HUB1
+	npc_2 NPC_HUB_demo
 	
 	tile_particle_1 debris_slow
 	tile_particle_2 dust
@@ -960,9 +981,58 @@ c2 {
         [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
         [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
         [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
-        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, BlobOrbLargeretro][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, FloaterGlitch]
+        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, BlobOrbLargeretro][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, Rewind_retro]
         [Fish, RetroFish][CreepingMass, CreepingMassRetro][FloatingMine, LivingMineRetro][ThwampGear, ThwampGearRetro][SkullFloaterBreaky, SkullFloaterretroBreaky]
     ]
+	
+	4 {
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, BlobOrbLargeretro][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, Rewind_retro3]
+        [Fish, RetroFish][CreepingMass, CreepingMassRetro][FloatingMine, LivingMineRetro][ThwampGear, ThwampGearRetro][SkullFloaterBreaky, SkullFloaterretroBreaky]
+    ]
+    }
+	
+	6 {
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, BlobOrbLargeretro][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, Rewind_retro2]
+        [Fish, RetroFish][CreepingMass, CreepingMassRetro][FloatingMine, LivingMineRetro][ThwampGear, ThwampGearRetro][SkullFloaterBreaky, SkullFloaterretroBreaky]
+    ]
+    }
+	
+	7 {
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, BlobOrbLargeretro][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, Rewind_retro3]
+        [Fish, RetroFish][CreepingMass, CreepingMassRetro][FloatingMine, LivingMineRetro][ThwampGear, ThwampGearRetro][SkullFloaterBreaky, SkullFloaterretroBreaky]
+    ]
+    }
+	
+	10 {
+    art_alts [
+        [Player, PlayerRetro][Frog, Frogretro][Slug, Slugretro]
+        [SkullFloater, SkullFloaterretro][Gasser, Gasserretro][Splatter, Splatterretro][CheepCheep, cheepretro][Bullet, bulletretro]
+        [SpitterX, SpitterXretro][SpitterY, SpitterYretro][AimSpitter, SpitterZretro][Cannonball, cannonballretro][Fireball, cannonballfireretro]
+        [Hopper, hopperretro][SkullSlug, SkullSlugretro][SkullCrow, SkullCrowretro][ChainChomp, ChainChompretro][ChainLink, ChainLinkretro][ChainLink2, ChainLinkretro]
+        [Mask, Maskretro][Revolver, Revolverretro][GasCloud, GasCloudretro][Cannon,Cannonretro][Cannonstand,Cannonstandretro][Bouncer,Bouncerretro]
+        [ElectroBall, RetroElectroBall][OrbSmall, RetroOrbSmall][OrbLarge, BlobOrbLargeretro][ChargeSlug, RetroChargerSlug][Sentry, SentryRetro][Floater, Rewind_retro3]
+        [Fish, RetroFish][CreepingMass, CreepingMassRetro][FloatingMine, LivingMineRetro][ThwampGear, ThwampGearRetro][SkullFloaterBreaky, SkullFloaterretroBreaky]
+    ]
+    }
+	
 }
 
 c3 {
