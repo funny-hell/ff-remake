@@ -16,14 +16,15 @@ NPC_RAPTURE1 {
 	text [
 	    "hey dude!\nlong time\nno see"
 		"how has that\nmaking a friend\nthing been going?"
-		". . .\noh, i see"
-		"well, everyone\nhas rough times\nyou know?"   
-		"do not let\na few mistakes\ntake over you"
-		"when i was alive\ni kicked a baby\nin the face!"
-		"and look\nat me now!"
-		"healthier and\nstronger than ever"
-		"so go out there\nand conquer\nthe world"
-		"who is gonna\nstop you now!"
+		"\n. . ."
+        "\noh, i see"
+		"well, i atleast\nknow a way to make\nyour day better"
+		"\na grandmaster tip!"
+		"most things in life\nare not patient"
+		"you will need\nto move your\nfat ass to them"
+		"or you will\nlose them forever"
+		"\n. . ."
+		"did that make\nyou feel better?"
 	]
 }
 
@@ -43,6 +44,15 @@ NPC_RAPTURE2 {
 
 #Wastelands
 
+NPC_WASTE0 {
+#birb nest
+    movieclip NPC_fake_birdnest
+	sound_id NPCSkull
+	text [
+	    "you shouldn't\nbe reading\nthis . . ."
+	]
+}
+
 NPC_WASTE1 {
 #birbs
     movieclip NPC2
@@ -61,13 +71,12 @@ NPC_WASTE1 {
 		"so try to\navoid jumping\non them"
 		"unless you\nreally need it"
 		"or you just\nwant to give\nthem brain cancer"
-		"both are valid\nfor me"
 	]
 }
 
 NPC_WASTE2 {
 #stuck stepbro
-    movieclip NPC9
+    movieclip NPCNern
 	sound_id NPCSkull
 	text [
 		". . .\nuh?\n. . ."
@@ -325,7 +334,9 @@ NPCHX {
 	alt_text [
 	    "so you still\nwant to escape\nfrom her right?"
 		"\n. . ."
-		"you can not\nrun away forever"
+		"you can't\nrun away forever"
+		"she is going\nto catch up\nto you again"
+		"\n. . ."
 		"this is your\nlast chance"
 		"try not to\nfuck it up\nas always"
 	]

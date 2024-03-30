@@ -1,0 +1,7 @@
+{
+    "name": "Far Future",
+    "author": "Enana Blanca, Ice, Aden",
+    "description": "A new campaign that continues after the Nevermore ending. V 1.0",
+    "savefile_suffix": ".ffbeta",
+    "inherit_save": "none"
+}

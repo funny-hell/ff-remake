@@ -82,6 +82,8 @@ start {
 	]
 	
 	0 {
+	palette 127
+	
 	decoration_2 black_screen
 	
 	ambience_volume 1.8
@@ -417,6 +419,7 @@ r2 {
     area_type dark
 	
 	npc_1 NPC_WASTE1
+	npc_2 NPC_WASTE0
 	
 	tile_particle_4 debris_meat
 	global_particle_1 fog_light
@@ -740,14 +743,10 @@ r3xu {
 	tile_particle_4 waterfall_splash
     tile_particle_5 toxicbubbles
 	
-	music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
+	music [none, gymnopedies_new_loop.ogg]
 	stop_previous_music false
     ambience storm.ogg
 	ambience_volume 1.2
-	
-	1 {
-	    global_particle_1 collapseparts_2t
-	}
 	
 	2 {
 		tile_graphics Tiletox
